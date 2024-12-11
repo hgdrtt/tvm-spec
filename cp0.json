@@ -3983,7 +3983,7 @@
       "control_flow": { "branches": [], "nobranch": true }
     },
     {
-      "mnemonic": "ADDRSHIFTMOD",
+      "mnemonic": "ADDRSHIFTMOD_VAR",
       "since_version": 4,
       "doc": {
         "category": "arithm_div",
@@ -6669,7 +6669,7 @@
       "doc": {
         "category": "arithm_div",
         "description": "",
-        "gas": "26",
+        "gas": "34",
         "fift": "[tt+1] LSHIFT#DIVC",
         "fift_examples": [],
         "opcode": "A9D6tt",
@@ -8844,12 +8844,12 @@
         "gas": "42",
         "fift": "[tt+1] QRSHIFT#MOD",
         "fift_examples": [],
-        "opcode": "A93Ctt",
+        "opcode": "B7A93Ctt",
         "stack": "x - q=floor(x/2^(tt+1)) r=x-q*2^(tt+1)"
       },
       "bytecode": {
-        "tlb": "#A93C tt:uint8",
-        "prefix": "A93C",
+        "tlb": "#B7A93C tt:uint8",
+        "prefix": "B7A93C",
         "operands": [
           {
             "name": "t",
@@ -8887,12 +8887,12 @@
         "gas": "42",
         "fift": "[tt+1] QRSHIFTR#MOD",
         "fift_examples": [],
-        "opcode": "A93Dtt",
+        "opcode": "B7A93Dtt",
         "stack": "x - q=round(x/2^(tt+1)) r=x-q*2^(tt+1)"
       },
       "bytecode": {
-        "tlb": "#A93D tt:uint8",
-        "prefix": "A93D",
+        "tlb": "#B7A93D tt:uint8",
+        "prefix": "B7A93D",
         "operands": [
           {
             "name": "t",
