@@ -1493,7 +1493,7 @@
       "value_flow": {
         "inputs": {
           "stack": [
-            { "type": "simple", "name": "x", "value_types": ["Integer"] }
+            { "type": "simple", "name": "x", "value_types": ["Integer", "Null"] }
           ],
           "registers": []
         },
@@ -22960,7 +22960,7 @@
       "value_flow": {
         "inputs": {
           "stack": [
-            { "type": "simple", "name": "D", "value_types": ["Slice", "Null"] },
+            { "type": "simple", "name": "D", "value_types": ["Cell", "Null"] },
             { "type": "simple", "name": "b", "value_types": ["Builder"] }
           ],
           "registers": []
@@ -29972,7 +29972,7 @@
         },
         "outputs": {
           "stack": [
-            { "type": "simple", "name": "x", "value_types": ["Integer"] }
+            { "type": "simple", "name": "x", "value_types": ["Integer", "Slice"] }
           ],
           "registers": []
         }
