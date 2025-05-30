@@ -23084,7 +23084,7 @@
         },
         "outputs": {
           "stack": [
-            { "type": "simple", "name": "D", "value_types": ["Slice", "Null"] },
+            { "type": "simple", "name": "D", "value_types": ["Cell", "Null"] },
             { "type": "simple", "name": "s2", "value_types": ["Slice"] }
           ],
           "registers": []
