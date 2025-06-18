@@ -1493,7 +1493,7 @@
       "value_flow": {
         "inputs": {
           "stack": [
-            { "type": "simple", "name": "x", "value_types": ["Integer", "Null"] }
+            { "type": "simple", "name": "x", "value_types": ["Integer", "Null", "Cell", "Builder", "Slice", "Tuple", "Continuation"] }
           ],
           "registers": []
         },
