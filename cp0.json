@@ -33324,7 +33324,7 @@
                         {
                             "type": "simple",
                             "name": "D",
-                            "value_types": ["Integer"]
+                          "value_types": ["Slice", "Null"]
                         },
                         {
                             "type": "simple",
@@ -33375,7 +33375,7 @@
                         {
                             "type": "simple",
                             "name": "D",
-                            "value_types": ["Integer"]
+                          "value_types": ["Slice", "Null"]
                         },
                         {
                             "type": "simple",
@@ -33426,7 +33426,7 @@
                         {
                             "type": "simple",
                             "name": "D",
-                            "value_types": ["Integer"]
+                          "value_types": ["Slice", "Null"]
                         },
                         {
                             "type": "simple",
@@ -34476,7 +34476,7 @@
                         {
                             "type": "simple",
                             "name": "D",
-                            "value_types": ["Integer"]
+                            "value_types": ["Slice", "Null"]
                         },
                         {
                             "type": "simple",
