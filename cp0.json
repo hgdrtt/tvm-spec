@@ -26196,32 +26196,7 @@
         },
         "outputs": {
           "stack": [
-            {
-              "type": "conditional",
-              "name": "status",
-              "match": [
-                {
-                  "value": 0,
-                  "stack": [
-                    {
-                      "type": "simple",
-                      "name": "D",
-                      "value_types": ["Slice", "Null"]
-                    }
-                  ]
-                },
-                {
-                  "value": -1,
-                  "stack": [
-                    {
-                      "type": "simple",
-                      "name": "D2",
-                      "value_types": ["Slice", "Null"]
-                    }
-                  ]
-                }
-              ]
-            },
+            { "type": "simple", "name": "D", "value_types": ["Slice", "Null"] },
             { "type": "simple", "name": "status", "value_types": ["Integer"] }
           ],
           "registers": []
@@ -26254,31 +26229,7 @@
         "outputs": {
           "stack": [
             {
-              "type": "conditional",
-              "name": "status",
-              "match": [
-                {
-                  "value": 0,
-                  "stack": [
-                    {
-                      "type": "simple",
-                      "name": "D",
-                      "value_types": ["Slice", "Null"]
-                    }
-                  ]
-                },
-                {
-                  "value": -1,
-                  "stack": [
-                    {
-                      "type": "simple",
-                      "name": "D2",
-                      "value_types": ["Slice", "Null"]
-                    }
-                  ]
-                }
-              ]
-            },
+            { "type": "simple", "name": "D", "value_types": ["Slice", "Null"] },
             { "type": "simple", "name": "status", "value_types": ["Integer"] }
           ],
           "registers": []
@@ -26310,32 +26261,7 @@
         },
         "outputs": {
           "stack": [
-            {
-              "type": "conditional",
-              "name": "status",
-              "match": [
-                {
-                  "value": 0,
-                  "stack": [
-                    {
-                      "type": "simple",
-                      "name": "D",
-                      "value_types": ["Slice", "Null"]
-                    }
-                  ]
-                },
-                {
-                  "value": -1,
-                  "stack": [
-                    {
-                      "type": "simple",
-                      "name": "D2",
-                      "value_types": ["Slice", "Null"]
-                    }
-                  ]
-                }
-              ]
-            },
+            { "type": "simple", "name": "D", "value_types": ["Slice", "Null"] },
             { "type": "simple", "name": "status", "value_types": ["Integer"] }
           ],
           "registers": []
@@ -27093,32 +27019,7 @@
         },
         "outputs": {
           "stack": [
-            {
-              "type": "conditional",
-              "name": "status",
-              "match": [
-                {
-                  "value": 0,
-                  "stack": [
-                    {
-                      "type": "simple",
-                      "name": "D",
-                      "value_types": ["Slice", "Null"]
-                    }
-                  ]
-                },
-                {
-                  "value": -1,
-                  "stack": [
-                    {
-                      "type": "simple",
-                      "name": "D2",
-                      "value_types": ["Slice", "Null"]
-                    }
-                  ]
-                }
-              ]
-            },
+            { "type": "simple", "name": "D", "value_types": ["Slice", "Null"] },
             { "type": "simple", "name": "status", "value_types": ["Integer"] }
           ],
           "registers": []
