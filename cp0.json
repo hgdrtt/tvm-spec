@@ -33501,34 +33501,11 @@
           "registers": [],
           "stack": [
             {
-              "match": [
-                {
-                  "stack": [
-                    {
-                      "name": "s",
-                      "type": "simple",
-                      "value_types": [
-                        "Slice"
-                      ]
-                    }
-                  ],
-                  "value": 0
-                },
-                {
-                  "stack": [
-                    {
-                      "name": "s3",
-                      "type": "simple",
-                      "value_types": [
-                        "Slice"
-                      ]
-                    }
-                  ],
-                  "value": -1
-                }
-              ],
-              "name": "status",
-              "type": "conditional"
+              "name": "s",
+              "type": "simple",
+              "value_types": [
+                "Slice"
+              ]
             },
             {
               "name": "status",
