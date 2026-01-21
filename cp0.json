@@ -6419,7 +6419,7 @@
             "max_refs": 3,
             "min_bits": 0,
             "min_refs": 0,
-            "name": "s",
+            "name": "c",
             "refs_add": 0,
             "refs_length_var_size": 2,
             "type": "subslice"
@@ -6486,7 +6486,7 @@
             "max_refs": 0,
             "min_bits": 0,
             "min_refs": 0,
-            "name": "s",
+            "name": "c",
             "type": "subslice"
           }
         ],
@@ -56832,7 +56832,7 @@
         "nobranch": true
       },
       "doc": {
-        "category": "dict_special",
+        "category": "dict_prefix",
         "description": "Looks up the unique prefix of _Slice_ `s` present in the prefix code dictionary represented by `Cell^?` `D` and `0 <= n <= 1023`. If found, the prefix of `s` is returned as `s'`, and the corresponding value (also a _Slice_) as `x`. The remainder of `s` is returned as a _Slice_ `s''`. If no prefix of `s` is a key in prefix code dictionary `D`, returns the unchanged `s` and a zero flag to indicate failure.",
         "fift": "PFXDICTGETQ",
         "fift_examples": [],
@@ -56947,7 +56947,7 @@
         "nobranch": true
       },
       "doc": {
-        "category": "dict_special",
+        "category": "dict_prefix",
         "description": "Similar to `PFXDICTGET`, but throws a cell deserialization failure exception on failure.",
         "fift": "PFXDICTGET",
         "fift_examples": [],
@@ -57037,7 +57037,7 @@
         "nobranch": false
       },
       "doc": {
-        "category": "dict_special",
+        "category": "dict_prefix",
         "description": "Similar to `PFXDICTGETQ`, but on success `BLESS`es the value `x` into a _Continuation_ and transfers control to it as if by a `JMPX`. On failure, returns `s` unchanged and continues execution.",
         "fift": "PFXDICTGETJMP",
         "fift_examples": [],
@@ -57091,7 +57091,7 @@
         "nobranch": false
       },
       "doc": {
-        "category": "dict_special",
+        "category": "dict_prefix",
         "description": "Similar to `PFXDICTGETJMP`, but `EXEC`utes the continuation found instead of jumping to it. On failure, throws a cell deserialization exception.",
         "fift": "PFXDICTGETEXEC",
         "fift_examples": [],
@@ -57193,7 +57193,7 @@
         "nobranch": false
       },
       "doc": {
-        "category": "dict_special",
+        "category": "dict_prefix",
         "description": "Combines `[n] DICTPUSHCONST` for `0 <= n <= 1023` with `PFXDICTGETJMP`.",
         "fift": "[ref] [n] PFXDICTCONSTGETJMP\n[ref] [n] PFXDICTSWITCH",
         "fift_examples": [],
