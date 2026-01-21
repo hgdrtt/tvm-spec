@@ -16929,24 +16929,7 @@
         },
         "outputs": {
           "stack": [
-            {
-              "type": "conditional",
-              "name": "status",
-              "match": [
-                {
-                  "value": 0,
-                  "stack": [
-                    { "type": "simple", "name": "s", "value_types": ["Slice"] }
-                  ]
-                },
-                {
-                  "value": -1,
-                  "stack": [
-                    { "type": "simple", "name": "s3", "value_types": ["Slice"] }
-                  ]
-                }
-              ]
-            },
+            { "type": "simple", "name": "s", "value_types": ["Slice"] },
             { "type": "simple", "name": "status", "value_types": ["Integer"] }
           ],
           "registers": []
